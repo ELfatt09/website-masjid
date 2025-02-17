@@ -1,0 +1,242 @@
+footer{
+    width: 100%;
+    height: 80vh;
+    max-width: 100%;
+    padding: 30px 30px;
+    gap: 1rem;
+    background-color: #2D3A4D;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.kanan{
+    width: 60%;
+    height: max-content;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.kanan .headkan{
+    margin-bottom: 15px;
+    gap: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kanan .headkan img{
+    width: 13%;
+    height: auto;
+    border: none;
+}
+
+.kanan .headkan h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+.kanan p{
+    width: 100%;
+    height: auto;
+    color: white;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.tengah{
+    width: 40%;
+    height: max-content;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tengah h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.tengah .link{
+    gap: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tengah .link a{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.kiri{
+    width: 65%;
+    height: auto;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.kiri h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.kiri p{
+    width: 100%;
+    height: auto;
+    color: white;
+    letter-spacing: .3px;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 13px;
+}
+
+.kiri .contact{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.kiri .contact .email{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact .email h3{
+    color: white;
+    letter-spacing: .3px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.contact .email input{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding: 10px 10px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.contact .msg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact .msg h3{
+    color: white;
+    letter-spacing: .3px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.contact .msg input{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding: 30px 10px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.linkcon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.linkcon .sumbit{
+    width: 40%;
+    padding: 15px 0;
+    margin-bottom: 23px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    background-color: #00BC7D;
+    border-radius: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.linkcon .smedia{
+    width: 100%;
+    gap: 2rem;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.smedia a{
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cright{
+    width: 100%;
+    height: auto;
+    padding: 15px 50px;
+    background-color: #1E2939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cright span{
+    color: #009966;
+}
+
+.cright p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
