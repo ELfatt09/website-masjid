@@ -22,15 +22,16 @@
     </nav>
 
     <section class="w-full h-screen flex flex-col bg-[url('./assets/hero.jpg')] bg-cover">
-      <div data-aos="fade-up" class="h-full w-1/2 flex flex-row items-center bg-gray-900/60 justify-center  backdrop-blur-md backdrop-saturate-150">
-        <div class="w-3/4 align-left">
-          <h1 class="text-6xl font-bold text-emerald-400 uppercase">Masjid<br> Al-Muchlisin</h1>
-          <h2 class="text-2xl font-bold text-white">Cahaya Hati, Cahaya Ilmu, Cahaya Iman.</h2>
+        <div data-aos="fade-up" class="h-full w-1/2 flex flex-row items-center bg-gray-900/60 justify-center  backdrop-blur-md backdrop-saturate-150">
+            <div class="w-3/4 align-left">
+                <h1 class="text-6xl font-bold text-emerald-400 uppercase">Masjid<br> Al-Muchlisin</h1>
+                <h2 class="text-2xl font-bold text-white">Cahaya Hati, Cahaya Ilmu, Cahaya Iman.</h2>
+            </div>
         </div>
-      </div>
+        
     </section>
 
-    <section class="w-full h-screen bg-gray-800 p-10 text-gray-600 body-font">
+    <section class="w-full min-h-screen bg-gray-800 p-10 text-gray-600 body-font">
 
             <div class="container px-5 py-24 mx-auto">
               <div class="flex flex-wrap w-full mb-8">
@@ -60,25 +61,79 @@
                 </div>
                 <div class="p-4 sm:w-1/2 w-1/2">
                   <div class="bg-emerald-500 rounded-lg p-2 xl:p-6">
-                      <h2 class="title-font font-medium sm:text-4xl text-3xl text-white" id="counter4">25</h2>
+                      <h2 class="title-font font-medium sm:text-4xl text-3xl text-white" id="counter">1945</h2>
                       <p class="leading-relaxed text-gray-100 font-bold">Tahun sejak didirikan</p>
                   </div>
                 </div>
               </div>
             </div>
           </section>
+          
+          <footer class="w-full h-[80vh] max-w-full p-8 gap-4 bg-[#2D3A4D] overflow-hidden flex justify-center items-start">
+            <div class="w-3/5 h-auto p-8 flex flex-col justify-center items-start">
+                <div class="mb-4 gap-2 flex justify-center items-center">
+                    <h1 class="text-2xl font-semibold text-white">Tentang Masjid Al-Muchlisin</h1>
+                </div>
+                <p class="w-full text-white tracking-wide text-justify text-base font-light">
+                    Masjid Al-Muchlisin adalah tempat ibadah yang nyaman dan penuh keberkahan. Kami mengutamakan kebersihan, kenyamanan, serta kegiatan keagamaan yang bermanfaat.
+                </p>
+            </div>
+            <div class="w-2/5 h-auto p-8 flex flex-col justify-center items-start">
+                <h1 class="text-2xl font-semibold text-white mb-4">Menu Link</h1>
+                <div class="gap-4 flex flex-col justify-center items-start">
+                    <a href="#" class="text-white text-base font-light">- Home</a>
+                    <a href="#" class="text-white text-base font-light">- About</a>
+                    <a href="#" class="text-white text-base font-light">- Jadwal Sholat</a>
+                </div>
+            </div>
+            <div class="w-2/3 h-auto p-8 flex flex-col justify-center items-start">
+                <h1 class="text-2xl font-semibold text-white mb-4">Kontak Kami</h1>
+                <p class="w-full text-white text-justify text-base font-light mb-4">Kami selalu terbuka untuk pertanyaan, saran, atau informasi lebih lanjut mengenai kegiatan masjid. Jangan ragu untuk menghubungi kami melalui kontak yang tersedia atau kunjungi masjid kami secara langsung.</p>
+                <div class="w-full flex flex-col justify-center items-start mb-8">
+                    <div class="w-full mb-4 flex flex-col">
+                        <h3 class="text-white text-base font-semibold mb-2">Email</h3>
+                        <input type="text" placeholder="Please enter your email" class="w-full p-2  border-emerald-500 rounded-md bg-gray-100">
+                    </div>
+                    <div class="w-full flex flex-col">
+                        <h3 class="text-white text-base font-semibold mb-2">Message</h3>
+                        <input type="text" placeholder="Please enter your message" class="w-full p-4 border-emerald-500 rounded-md bg-gray-100">
+                    </div>
+                </div>
+                <div class="w-full flex flex-col justify-center items-start">
+                    <a href="#" class="w-2/5 p-4 mb-6 text-white font-semibold text-sm bg-[#00BC7D] rounded-lg text-center">Submit</a>
+                    <div class="w-full flex gap-8 justify-start items-center">
+                        <a href="#" class="text-white text-2xl"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="text-white text-2xl"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="text-white text-2xl"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="text-white text-2xl"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="text-white text-2xl"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section class="w-full p-4 bg-[#1E2939] flex justify-center items-center">
+            <p class="text-white text-base font-semibold">&copy; 2025, <span class="text-[#009966]">Website Masjid Al-Muchlisin</span> &reg;. All rights reserved</p>
+        </section>
 
           <script>
             document.addEventListener('scroll', () => {
-                const scrollPosition = window.scrollY;
-                const maxScroll = (document.body.scrollHeight - window.innerHeight) / 2; // Setengah scroll
-                const percentageScrolled = Math.min(scrollPosition / maxScroll, 1);
+              const scrollPosition = window.scrollY;
+            const maxScroll = (document.body.scrollHeight - window.innerHeight) / 2; // Setengah scroll
+            const percentageScrolled = Math.min(scrollPosition / maxScroll, 1);
+
+            if (scrollPosition > maxScroll) {
+                return; // Berhenti mengupdate angka saat sudah terlewat setengah halaman
+            }
     
-                const targetNumbers = [5000, 30, 20, 25]; // Ganti dengan angka yang ditentukan
-                targetNumbers.forEach((targetNumber, index) => {
-                    const currentNumber = Math.floor(percentageScrolled * targetNumber);
-                    document.getElementById(`counter${index + 1}`).innerText = currentNumber;
-                });
+                  const targetNumbers = [50100, 31, 21]; // Ganti dengan angka yang ditentukan
+              targetNumbers.forEach((targetNumber, index) => {
+                  const currentNumber = Math.floor(percentageScrolled * targetNumber);
+                  if (index === 0) {
+                      document.getElementById(`counter${index + 1}`).innerText = currentNumber + '+';
+                  } else {
+                      document.getElementById(`counter${index + 1}`).innerText = currentNumber;
+                  }
+              });
             });
         </script>
 </body>
